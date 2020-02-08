@@ -4,20 +4,132 @@
 <head lang='en'>
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width'>
-    <title>rollup-starter-app</title>
+    <title>My Collection</title>
 
-    <style>
-        body {
-            font-family: 'Helvetica Neue', Arial, sans-serif;
-            color: #333;
-            font-weight: 300;
-        }
-    </style>
+    <!--Bootstrap core CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!--Custom styles for this template-->
+    <link href="css/style.css" rel="stylesheet">
+
 </head>
 
+
 <body>
-    <h1>Hello World</h1>
-    <!--<p>The time is <span id='time-now'>...</span></p>-->
+    <header id="main-header">
+        <div class="container">
+            <h1 class="page-header">Photo Album <small>Homepage</small></h1>
+        </div>
+    </header>
+
+    <div class="container-fluid">
+        <nav id="navbar">
+            <ul>
+                <li><a>Categories: </strong></a></li>
+                <li><a href="category.html">Beach</a></li>
+                <li><a href="category.html">Forest</a></li>
+                <li><a href="category.html">Sunsets</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container-fluid">
+        <h2>Vacation</h2>
+        <div class="row">
+            <div class="col-mid-2">
+                <a href="details.html" target="_blank">
+                    <img class="rounded float-left" src="images/beach1.jpg" alt="vacation" style="width:90%">
+                    <div class=" caption">
+                        <p>Details Page</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-mid-2">
+                <a href="details.html" target="_blank">
+                    <img class="rounded center" src="images/beach2.jpg" alt="vacation" style="width:90%">
+                    <div class="caption">
+                    </div>
+                </a>
+            </div>
+            <div class="col-mid-2">
+                <a href="details.html" target="_blank">
+                    <img class="rounded float-right" src="images/beach3.jpg" alt="vacation" style="width:90%">
+                    <div class="caption">
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <h2>Forest</h2>
+        <div class="row">
+            <div class="col-mid-2">
+                <a href="details.html" target="_blank">
+                    <img class="rounded float-left" src="images/nature1.jpg" alt="nature" style="width:90%">
+                    <div class=" caption">
+                        <p>Details Page</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-mid-2">
+                <a href="details.html" target="_blank">
+                    <img class="rounded center" src="images/nature2.jpg" alt="nature" style="width:90%">
+                    <div class="caption">
+                    </div>
+                </a>
+            </div>
+            <div class="col-mid-2">
+                <a href="details.html" target="_blank">
+                    <img class="rounded float-right" src="images/nature3.jpg" alt="nature" style="width:90%">
+                    <div class="caption">
+                    </div>
+                </a>
+
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <h2>Sunsets</h2>
+            <div class="row">
+                <div class="col-mid-2">
+                    <a href="details.html" target="_blank">
+                        <img class="rounded float-left" src="images/sunset.jpg" alt="sunset" style="width:90%">
+                        <div class=" caption">
+                            <p>Details Page</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-mid-2">
+                    <a href="details.html" target="_blank">
+                        <img class="rounded center" src="images/sunset.png" alt="sunset" style="width:90%">
+                        <div class="caption">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-mid-2">
+                    <a href="details.html" target="_blank">
+                        <img class="rounded float-right" src="images/sunset2.jpg" alt="sunset" style="width:90%">
+                        <div class="caption">
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
     <script src='bundle.js' type="module"></script>
 </body>
 
